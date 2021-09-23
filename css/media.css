@@ -1,0 +1,194 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #header .mainav a,
+    #header .mainav .active {
+        border: 0;
+    }
+    #header .mainav a:hover {
+        border: 0;
+    }
+    .mass-padding {
+        padding: 40px 0;
+    }
+    
+    #banner .banner-row .banner-content .btn-more:hover {
+        background-color: #23B7A4;
+        color: #fff;
+    }
+
+    #banner .banner-row .banner-content .btn-video:hover {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+    #about .social-links li a:hover {
+        background-color: #C8CDD0;
+        color: #fff;
+    }
+
+    #team .team-card p {
+        font-size: 14px;
+        color: #8d8f92;
+    }
+
+    #team .single:hover .team-card {
+        background-color: #E1E6EA;
+    }
+
+    #team .single:hover h3,
+    #team .single:hover p {
+        color: #292f36;
+    }
+    #team .overlay {
+        display: none;
+    }
+    #work .single .overlay {
+        opacity: 1;
+    }
+    #work .single .overlay .overlay-text {
+        height: 50px;
+        bottom: 0;
+    }
+    #work .btn-more {
+        padding: 10px 18px;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+
+    #work .btn-more:hover {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+    #feature .single {
+        border: 1px solid #828282;
+    }
+    #feature .single:hover .feature-card {
+        box-shadow: none;
+    }
+    #contact .contact-col {
+        position: static;
+    }
+    #contact .contact-form {
+        background-color: #fff;
+        padding: 20px;
+        position: static;
+        top: 0;
+    }
+    #about .social-links li a {
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        color: #23B7A4;
+        display: inline-block;
+        padding: 5px 0;
+    }
+    #service .single {
+        padding: 0 10px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #header .mainav a,
+    #header .mainav .active {
+        border: 0;
+    }
+    #header .mainav a:hover {
+        border: 0;
+    }
+    .mass-padding {
+        padding: 40px 0;
+    }
+    
+    #banner .banner-row .banner-content .btn-more:hover {
+        background-color: #23B7A4;
+        color: #fff;
+    }
+
+    #banner .banner-row .banner-content .btn-video:hover {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+    #about .social-links li a:hover {
+        background-color: #C8CDD0;
+        color: #fff;
+    }
+
+    #team .team-card p {
+        font-size: 14px;
+        color: #8d8f92;
+    }
+
+    #team .single:hover .team-card {
+        background-color: #E1E6EA;
+    }
+
+    #team .single:hover h3,
+    #team .single:hover p {
+        color: #292f36;
+    }
+    #team .overlay {
+        display: none;
+    }
+    #work .single .overlay {
+        opacity: 1;
+    }
+    #work .single .overlay .overlay-text {
+        height: 50px;
+        bottom: 0;
+    }
+    #work .btn-more {
+        padding: 10px 18px;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+
+    #work .btn-more:hover {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+    #feature .single {
+        border: 1px solid #828282;
+    }
+    #feature .single:hover .feature-card {
+        box-shadow: none;
+    }
+    #contact .contact-col {
+        position: static;
+    }
+
+    #contact .contact-form {
+        background-color: #fff;
+        padding: 20px;
+        position: static;
+        top: 0;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h3 {
+        font-size: 17px;
+    }
+}
